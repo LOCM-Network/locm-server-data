@@ -1,0 +1,5 @@
+nut1:
+  name: "abc"
+  contents:
+  - "abc"
+  - "xyz"
