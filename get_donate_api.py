@@ -29,6 +29,6 @@ class get_all(Resource):
 
 api.add_resource(get_all, '/api/napthe')
 api.add_resource(get_by_name, '/api/napthe/id/<player>')
-api.add_resource(getall, '/api/napthe/all')
+api.add_resource(get_all, '/api/napthe/all')
 if __name__ == '__main__':
      app.run()
