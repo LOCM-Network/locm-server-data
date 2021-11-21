@@ -33,7 +33,7 @@ for data in datalist:
 		doanhthu_r += cc_fee(card_type, amount)
 
 today = date.today().strftime("%d/%m/%Y")
-print("Doanh thu tháng 11 tính đến ngày (" + today + "): " + str(doanhthu_card) + " VND (CARD)")
+print("Doanh thu (" + sv + ") tháng 11 tính đến ngày (" + today + "): " + str(doanhthu_card) + " VND (CARD)")
 print("Tổng doanh thu sau phí: " + str(doanhthu_r) + "VND")
 for data in data_cards:
 	print(data + ": " + str(data_cards[data]) + " VND")
